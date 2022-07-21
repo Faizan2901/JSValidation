@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="ValidationExample.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="Valresult.html" onsubmit="return ValidateExample()">
+
+        <pre>
+
+        <label for="">Username </label>
+        <input type="text" name="un" id="un">
+        <label for="" id="user" style="color: red;"></label><br>
+        <label for="">Email </label>
+        <input type="text" name="em" id="em">
+        <label for="" id="email" style="color: red;"></label><br>
+        <label for="">Mobile No. </label>
+        <input type="text" name="mn" id="mn">
+        <label for="" id="mobile" style="color: red;"></label><br>
+        <label for="">Password </label>
+        <input type="text" name="ps" id="ps">
+        <label for="" id="pass" style="color: red;"></label><br>
+        <label for="">Confirm Password </label>
+        <input type="text" name="psc" id="psc">
+        <label for="" id="passc" style="color: red;"></label><br>
+    </pre>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    
+    </form>
+    <script src="ValidateExample.js"></script>
+</body>
+</html>

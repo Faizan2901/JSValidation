@@ -1,0 +1,41 @@
+body{
+    background-color: khaki;
+    text-align: center;
+    margin: 30px;
+}
+
+input{
+    border-radius: 5px;
+    font-family: cursive;
+    background-color: #ECB390;
+    margin-top: 15px;
+}
+
+input:hover{
+    border-width: 5px;
+    border-color: #E8AA42;
+    
+}
+
+button:hover{
+    border-width: 5px;
+    border-color: #E8AA42;
+}
+
+label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    font-family: cursive, Geneva, Tahoma, sans-serif;
+    color: #876445;
+}
+
+button{
+
+    border-radius: 5px;
+    font-family: cursive;
+    background-color: #ECB390;
+    margin-top: 15px;
+    margin-left: 60px;
+}
